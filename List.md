@@ -9,7 +9,7 @@ In Python, it's:
 ```python
 my_list = [1, 2, 3]
 ```
-## 🔸 1. Creating a List
+##  1. Creating a List
 
 ```python
 fruits = ["apple", "banana", "cherry"]
@@ -17,9 +17,9 @@ numbers = [1, 2, 3, 4, 5]
 mixed = [1, "hello", True, 3.14]
 ```
 
-✅ Python lists can hold any type, even mixed types!
+> Python lists can hold any type, even mixed types!
 
-## 🔸 2. Accessing Elements
+##  2. Accessing Elements
 
 Lists use index numbers starting from 0:
 
@@ -28,13 +28,13 @@ print(fruits[0])   # apple
 print(fruits[1])   # banana
 ```
 
-🧠 Negative indexing also works:
+> Negative indexing also works:
 
 ```python
 print(fruits[-1])  # cherry (last item)
 ```
 
-## 🔸 3. Modifying Lists
+##  3. Modifying Lists
 
 Change values:
 
@@ -43,7 +43,7 @@ fruits[1] = "mango"
 print(fruits)  # ['apple', 'mango', 'cherry']
 ```
 
-## 🔸 4. List Functions & Methods
+##  4. List Functions & Methods
 
 |Task|Code Example|
 |---|---|
@@ -56,7 +56,7 @@ print(fruits)  # ['apple', 'mango', 'cherry']
 |Sort|fruits.sort()|
 |Reverse|fruits.reverse()|
 
-## 🔸 5. Looping Through a List
+##  5. Looping Through a List
 
 ```python
 for fruit in fruits:
@@ -70,7 +70,7 @@ for i in range(len(fruits)):
     print(fruits[i])
 ```
 
-## 🔸 6. Slicing Lists
+##  6. Slicing Lists
 
 ```python
 nums = [10, 20, 30, 40, 50]
