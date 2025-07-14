@@ -1,5 +1,4 @@
 
-# 🟣 Python Strings – Beginner Friendly
 
 ## 💡 What is a String?
 
@@ -65,3 +64,4 @@ print(f"My name is {name} and I am {age} years old.")
 for char in "Aatif":
     print(char)
 ```
+
