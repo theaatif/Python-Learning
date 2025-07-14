@@ -94,7 +94,7 @@ for i in range(5, 0, -1):
 
 🔸 Output: `5 4 3 2 1`
 
-### 🧪 Convert range to list
+###  Convert range to list
 
 ```python
 list(range(3, 8))
