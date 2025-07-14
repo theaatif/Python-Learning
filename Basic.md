@@ -100,3 +100,81 @@ for i in range(5, 0, -1):
 list(range(3, 8))
 # Output: [3, 4, 5, 6, 7]
 ```
+
+# Operators
+
+### 1️⃣ Arithmetic Operators
+
+Used for basic math (same as JavaScript):
+
+|Operator|Meaning|Example|Output|
+|---|---|---|---|
+|+|Addition|2 + 3|5|
+|-|Subtraction|5 - 2|3|
+|*|Multiplication|4 * 3|12|
+|/|Division|10 / 2|5.0|
+|//|Floor Division|10 // 3|3|
+|%|Modulus (remainder)|10 % 3|1|
+|**|Exponentiation|2 ** 3|8|
+
+> Tip:
+
+>- `//` is like `Math.floor()` after division.
+    
+>- `/` always returns float (even if exact).
+    
+
+### 2️⃣ Comparison Operators
+
+Used to compare values — returns True or False
+
+|Operator|Meaning|Example|
+|---|---|---|
+|==|Equal to|5 == 5 → True|
+|!=|Not equal to|5 != 3 → True|
+|>|Greater than|7 > 5 → True|
+|<|Less than|4 < 6 → True|
+|>=|Greater or equal|5 >= 5 → True|
+|<=|Less or equal|3 <= 4 → True|
+
+### 3️⃣ Assignment Operators
+
+Used to assign values to variables
+
+|Operator|Meaning|Example|Same as|
+|---|---|---|---|
+|=|Assign value|x = 10|—|
+|+=|Add and assign|x += 2 → x = x+2||
+|-=|Subtract|x -= 3||
+|*=|Multiply|x *= 4||
+|/=|Divide|x /= 2||
+
+### 4️⃣ Logical Operators
+
+Used in conditions
+
+|Operator|Meaning|Example|
+|---|---|---|
+|and|True if both are True|5 > 3 and 4 > 1 → True|
+|or|True if any is True|5 < 3 or 4 > 1 → True|
+|not|Reverses True/False|not True → False|
+
+> JS equivalent: &&, ||, !
+
+
+### 5️⃣ Membership Operators (🚀 Python Special)
+
+|Operator|Meaning|Example|
+|---|---|---|
+|in|Exists in sequence|"a" in "apple" → True|
+|not in|Doesn’t exist|3 not in [1,2,4] → True|
+
+### 6️⃣ Identity Operators
+
+|Operator|Meaning|Example|
+|---|---|---|
+|is|Same object in memory|a is b|
+|is not|Not the same object|a is not b|
+
+
+
