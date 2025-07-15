@@ -162,12 +162,12 @@ Used in conditions
 > JS equivalent: &&, ||, !
 
 
-### 5️⃣ Membership Operators (🚀 Python Special)
+### 5️⃣ Membership Operators (Python Special)
 
-|Operator|Meaning|Example|
-|---|---|---|
-|in|Exists in sequence|"a" in "apple" → True|
-|not in|Doesn’t exist|3 not in [1,2,4] → True|
+| Operator | Meaning            | Example                 |
+| -------- | ------------------ | ----------------------- |
+| in       | Exists in sequence | "a" in "apple" → True   |
+| not in   | Doesn’t exist      | 3 not in [1,2,4] → True |
 
 ### 6️⃣ Identity Operators
 
@@ -176,5 +176,76 @@ Used in conditions
 |is|Same object in memory|a is b|
 |is not|Not the same object|a is not b|
 
+[[Control Flow]]
+
+# Type Casting
+
+
+👉 Type casting means converting one data type into another — like string → integer, float → int, etc.
+
+In JavaScript, you may do:
+
+```js
+let x = Number("5")
+```
+
+In Python, it’s very similar but even simpler.
+
+##  Built-in Casting Functions in Python
+
+|Type|Function|Example|
+|---|---|---|
+|Integer|int()|int("10") → 10|
+|Float|float()|float("10.5") → 10.5|
+|String|str()|str(100) → "100"|
+|List|list()|list("abc") → ['a','b','c']|
+|Tuple|tuple()|tuple([1,2]) → (1, 2)|
+|Set|set()|set([1,2,2]) → {1,2}|
+
+---
+
+## Examples
+
+### 1. Convert string to int
+
+```python
+x = "5"
+y = int(x)
+print(y + 1)  # 6
+```
+
+### 2. Convert float to int
+
+```python
+x = 3.99
+y = int(x)
+print(y)  # 3 (cuts off decimal)
+```
+
+### 3. Convert int to string
+
+```python
+age = 22
+msg = "You are " + str(age) + " years old."
+print(msg)  # You are 22 years old.
+```
+
+---
+
+##  Bonus: Input + Type Casting Combo
+
+> input() always gives a string — so you often need to cast it:
+
+```python
+num = input("Enter a number: ")  # string
+num = int(num)
+print(num * 2)
+```
+
+OR in one line:
+
+```python
+num = int(input("Enter a number: "))
+```
 
 
